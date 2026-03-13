@@ -23,14 +23,6 @@ Ce projet vise à mettre en œuvre des algorithmes classiques de conversion de b
 
 ---
 
-## Structure du projet
-
-  .
-  ├── convbase.R  
-  └── README.md  
-
----
-
 ## Installation
 
 Installer le package nécessaire :
@@ -43,7 +35,7 @@ Installer le package nécessaire :
 
 ### Lancer l’application
 
-  app <- source("convbase.R")  
+  app <- source("app-base-converter.R")  
   app$value  
 
 L’application s’ouvre alors dans un navigateur web.
